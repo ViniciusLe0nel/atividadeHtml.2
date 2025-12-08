@@ -1,0 +1,116 @@
+/* Paleta azul + preto */
+/* Fundo preto, detalhes azul neon */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #020202;
+    border-bottom: 2px solid #007BFF;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* BANNER */
+.banner {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(180deg, #001133, #000);
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: #007BFF;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+/* PLAYER */
+.player {
+    text-align: center;
+    padding: 40px;
+}
+
+.player audio {
+    width: 60%;
+    margin-top: 10px;
+}
+
+/* BENEFÍCIOS */
+.beneficios {
+    padding: 40px;
+}
+
+.beneficios ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* FORMULÁRIOS */
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input {
+    padding: 10px;
+    margin: 10px 0;
+    background: #111;
+    border: 1px solid #007BFF;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 12px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #005FCC;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #007BFF;
+    margin-top: 40px;
+    background: #020202;
+}
